@@ -5,9 +5,9 @@
 
 typedef struct Matrix
 {
-	double** matrix;
-	long rows;
-	long cols;
+    double** matrix;
+    long rows;
+    long cols;
 } Matrix;
 
 Matrix* create_matrix_from_file(FILE* file);
